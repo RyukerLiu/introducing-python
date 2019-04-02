@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5328cf72-a417-458a-ac41-ee5ccd5db9ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/SQLite_Test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/redis_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +23,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLite_Test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SQLite_Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/SQLite_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="288">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storage/redis_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,6 +70,7 @@
         <option value="$PROJECT_DIR$/storage/yaml_test.py" />
         <option value="$PROJECT_DIR$/storage/SQLite.py" />
         <option value="$PROJECT_DIR$/storage/SQLite_Test.py" />
+        <option value="$PROJECT_DIR$/storage/redis_test.py" />
       </list>
     </option>
   </component>
@@ -123,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SQLite_Test">
+  <component name="RunManager" selected="Python.redis_test">
     <configuration name="SQLite_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +186,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="csv_dictwrite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="redis_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -187,7 +198,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="introducing-python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/storage/csv_dictwrite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/storage/redis_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,18 +222,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.csv_dictread" />
-      <item index="1" class="java.lang.String" itemvalue="Python.csv_dictwrite" />
-      <item index="2" class="java.lang.String" itemvalue="Python.csv_dictread_with_head" />
-      <item index="3" class="java.lang.String" itemvalue="Python.yaml_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SQLite_Test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.csv_dictread_with_head" />
+      <item index="2" class="java.lang.String" itemvalue="Python.yaml_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SQLite_Test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.redis_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SQLite_Test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.yaml_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.csv_dictread_with_head" />
-        <item index="3" class="java.lang.String" itemvalue="Python.csv_dictread" />
-        <item index="4" class="java.lang.String" itemvalue="Python.csv_dictwrite" />
+        <item index="0" class="java.lang.String" itemvalue="Python.redis_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SQLite_Test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.yaml_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.csv_dictread_with_head" />
+        <item index="4" class="java.lang.String" itemvalue="Python.csv_dictread" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +257,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -378,8 +389,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/storage/SQLite_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/redis_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
